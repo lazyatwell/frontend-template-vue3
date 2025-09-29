@@ -2,6 +2,7 @@
 
 a custom template developing with Vue 3 in Vite.
 
+- pnpm
 - vue3.5
 - vite7
 - tailwindcss4
