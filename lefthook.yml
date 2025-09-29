@@ -44,6 +44,8 @@
 pre-commit:
   parallel: true
   commands:
+    type-check:
+      run: pnpm type-check
     lint-md:
       run: pnpm prettier --cache --ignore-unknown --write {staged_files}
       glob: '*.md'
