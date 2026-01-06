@@ -9,13 +9,14 @@ a custom template developing with Vue 3 in Vite.
 - typescript
 - pinia
 - vue-router
+- vueuse
 - eslint
 - prettier
 - lefthook
+- unplugin-auto-import
 
 ## usage
 
 ```sh
-pnpm create https://github.com/lazyatwell/frontend-template-vue3.git my-project
-
+pnpm dlx degit lazyatwell/frontend-template-vue3 my-project
 ```
