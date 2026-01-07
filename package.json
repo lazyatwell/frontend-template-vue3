@@ -14,7 +14,7 @@
     "type-check": "vue-tsc --build",
     "build-check": "run-p type-check \"build-only {@}\" --",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "git init && lefthook install",
+    "prepare": "git rev-parse --git-dir 2>&1 || git init; lefthook install",
     "pre-commit": "lefthook run pre-commit -v"
   },
   "dependencies": {
