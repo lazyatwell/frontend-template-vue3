@@ -14,6 +14,8 @@ a custom template developing with Vue 3 in Vite.
 - prettier
 - lefthook
 - unplugin-auto-import
+- vue-i18n
+- lucide-vue-next
 
 ## usage
 

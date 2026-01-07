@@ -42,7 +42,7 @@
 #       runner: go run
 
 pre-commit:
-  parallel: true
+  parallel: false
   commands:
     type-check:
       run: pnpm type-check

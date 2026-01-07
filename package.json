@@ -14,13 +14,16 @@
     "type-check": "vue-tsc --build",
     "build-check": "run-p type-check \"build-only {@}\" --",
     "preinstall": "npx only-allow pnpm",
-    "prepare": "lefthook install"
+    "prepare": "git init && lefthook install",
+    "pre-commit": "lefthook run pre-commit -v"
   },
   "dependencies": {
     "@vueuse/core": "^13.9.0",
+    "lucide-vue-next": "^0.562.0",
     "pinia": "^3.0.3",
     "vue": "^3.5.18",
-    "vue-router": "^4.5.1"
+    "vue-router": "^4.5.1",
+    "vue-i18n": "^11.2.8"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.13",
